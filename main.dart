@@ -3,12 +3,12 @@ import 'package:http/http.dart' as http;
 
 void onLED()
 {
-  http.get(Uri.parse('http://192.168.0.101/ledOn'));
+  http.get(Uri.parse('http://ip address/ledOn'));
 }
 
 void offLED()
 {
-  http.get(Uri.parse('http://192.168.0.101/ledOff'));
+  http.get(Uri.parse('http://ip address/ledOff'));
 }
 
 void main() => runApp(MyApp());
